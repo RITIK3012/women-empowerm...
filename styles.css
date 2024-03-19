@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+
+
+.home-icon a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left:3px;
+}
+
+.home-icon a:hover{
+    font-size: 17px;
+    color: rgb(39, 169, 250);
+    margin-left: 3px;
+}
+
+
+
+.fund-logo a{
+    text-decoration: none;
+    color: rgb(255, 246, 246);
+    margin-left: 3px;
+}
+.fund-logo a:hover{
+    font-size: 17px;
+    color: rgb(39, 169, 250);
+}
+
+
+
+
+.gov-scheme a{
+    text-decoration: none;
+    color: rgb(254, 253, 255);
+}
+.gov-scheme a:hover{
+    color: rgb(39, 169, 250);
+    font-size: 17px;
+}
+
+
+
+
+
+
+.success-story a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+
+.success-story a:hover{
+    font-size: 17px;
+    color: rgb(39, 169, 250);
+}
+
+
+.about a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+
+.about a:hover
+{
+    font-size: 17px;
+    color: rgb(39, 169, 250);
+}
+
+
+
+.contact-us a{
+    text-decoration: none;
+    color: rgb(255, 244, 244);
+}
+.contact-us a:hover{
+    font-size: 17px;
+    color: rgb(39,169,250);
+}
+
+.navbar{
+    position:fixed;
+    height: 75.0px;
+    width: 100%;
+    /* height: 99.99px; */
+    background-color: #131517;
+    color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 9999;
+}
+.nav-logo{
+    height: 70px;
+    width: 130px;
+}
+.logo{
+    background-image: url("logo......png");
+    background-size: cover;
+    height: 70px;
+    width: 130px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.home-icon{
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+}
+.fund-logo{
+    margin-top:35px;
+    font-size: 1rem;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+    
+}
+.gov-scheme{
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+}
+.success-story{
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+}
+.about{
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-left: 35px;
+    text-align: center;
+    display:flex
+}
+.contact-us{
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+}
+.sign-in{
+    margin-top:28px;
+    text-decoration: solid blue;
+}
+.sign {
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+        font-weight: 600;
+        margin: 0 10px;
+        width: 60px;
+        padding: 10px 0;
+        box-shadow: 0 0 20px rgba(114, 97, 224, 0.2);
+        color: rgb(104, 85, 224);
+}
+.button:hover{
+        color: rgb(36, 144, 221);
+        background-color: 0 0 20px rgb(198, 224, 85);
+    }
+.heros-section{
+    background-image: url("women\ empwer...jpg");
+    height: 700px;
+    background-size: cover;
+}
+/* .heros-section p{
+    color: white;
+    font-size: 85px;
+} */
+.message{
+    background-color: #201a1a;
+    color: rgb(248, 248, 248);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+    
+}
+.further-details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #201a1a;
+    color: #ece6e600;
+    font-weight: bold;
+
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 18px;
+    text-align: center;
+}
+.box{
+    height: 300px;
+    background-color: #faf3df;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+.paragraph{
+    margin: 20px 0px;
+}
+
+.paragraph p{
+    padding: 10px 0px;
+}
+
+
+
+.featured-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+
+.boxone{
+    border: 2px solid black;
+    height: 400px;
+    width: 33%;
+    margin: 20px;
+    background-color: white;
+    margin-top: 80px;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: chocolate;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.boxtwo{
+    border: 2px solid black;
+    height: 400px;
+    width: 33%;
+    margin: 20px;
+    background-color: white;
+    margin-top: 80px;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: chocolate;
+    text-align: center;
+    font-size: 1.5rem;
+}
+    
+
+.boxthree{
+    border: 2px solid black;
+    height: 400px;
+    width: 33%;
+    margin: 20px;
+    background-color: white;
+    margin-top: 80px;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: chocolate;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin: 10px;
+}
+.box-imge{
+    height: 300px;
+    background-size: cover;
+    margin: 10px;
+
+}
+.box-image{
+    height:300px;
+    background-size: cover;
+    margin: 10px;
+}
+
+    
+
+
+/* footer section start here */
+
+
+#lets-connect {
+    margin: 0px 380px;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1.25px black;
+  }
+  
+  .footer-container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 174px;
+    height: 170px;
+    background-color: rgb(251, 239, 239);
+    line-height: 24px;
+    padding: 20px;
+    border-style: none;
+    border-radius: 9px;
+    margin: 10px 0px;
+    z-index: 0;
+  }
+  
+  .footer-column:hover {
+    box-shadow: 0px 0px 10px rgb(243, 238, 238);
+  }
+  
+  .service-column a {
+    line-height: 30px;
+  }
+  
+  .footer-column a {
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 4px;
+    color: rgb(129, 129, 129);
+  }
+  
+  .footer-column a:hover{
+      color: rgb(27, 138, 249);
+      font-size: 15px;
+  }
+     
+  
+  
+  .right {
+    margin: 0px 26%;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+    padding: 2px;
+  }
+  

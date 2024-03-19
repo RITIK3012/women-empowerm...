@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(237, 213, 187);
+}
+
+    
+    
+
+.img{
+    background-image: url(contact.png);
+    width: 100%;
+    height: 300px;
+}
+
+.img p{
+    font-size: 85px;
+    font-weight: bold;
+    padding: 130px;
+    color: rgb(235, 233, 233);
+}
+
+
+.contact-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    margin-top: 43px;
+    box-shadow: 0px 0px 14px solid black;
+    height: 255px;
+    width: 345px;
+    background-color: rgb(232, 222, 210);
+    
+    border-radius: 14px;
+    
+}
+
+ 
+  
+ 
+
+.content p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 66px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+.content p:hover{
+    color: rgb(27, 182, 234);
+    font-size: 19px;
+    
+}
+
+
+
+.material-symbols-outlined{
+    color: rgb(18, 17, 17);
+    font-size: 40px;
+}
+

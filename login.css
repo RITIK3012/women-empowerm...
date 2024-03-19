@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+  background-image: linear-gradient(rgb(36, 35, 35), white);
+}
+
+.container {
+  
+  background-image: linear-gradient(#79cce8,white);
+  padding:   75px;
+
+  border-radius: 20px;
+  box-shadow: 0 2px 88px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  z-index: 14;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="password"] {
+   
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+button[type="submit"] {
+  background-color: #1d8620;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+
+.new-account{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-left: 130px;
+    margin-top: 21px;
+}
+
+.new-account p{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.new-account p:hover{
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(52, 147, 255);
+    
+}
